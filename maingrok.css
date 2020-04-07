@@ -1,0 +1,72 @@
+h1 {
+    text-transform: capitalize;
+	text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Calibri;
+	text-decoration: underline;
+}
+
+h4 {
+	font-family: Georgia 'Times New Roman' Times, serif;
+	color: white;
+	text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+p {
+	font-family: calibri;
+}
+img {
+	border: solid gray;
+	border-width: 5px;
+	text-align: left;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1rem;
+}
+/*These comments are used for spacing the paragraphs*/
+.column {
+	float: left;
+	width: 33.33%;
+	color:white;
+	font-family: calibri;
+	margin: 0px 85px;
+}
+
+.column1 {
+	float: center;
+	width: 33.33%;
+	color:white;
+	font-family: calibri;
+	margin: 0px 85px;
+}
+
+.column2 {
+	float: center;
+	width: 33.33%;
+	color:white;
+	font-family: calibri;
+	margin: 0px 85px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
